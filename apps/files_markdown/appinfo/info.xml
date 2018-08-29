@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>files_markdown</id>
+	<name>Markdown Editor</name>
+	<summary>A Markdown Editor with live preview</summary>
+	<description><![CDATA[Markdown Editor extends the Nextcloud text editor with a live preview for markdown files.
+
+A full list of features can be found [in the README](https://github.com/icewind1991/files_markdown)]]></description>
+	<licence>AGPL</licence>
+	<author>Robin Appelman</author>
+	<dependencies>
+		<nextcloud min-version="11" max-version="14"/>
+	</dependencies>
+
+	<version>2.0.4</version>
+	<category>office</category>
+	<website>https://github.com/icewind1991/files_markdown</website>
+	<bugs>https://github.com/icewind1991/files_markdown/issues</bugs>
+	<repository type="git">https://github.com/icewind1991/files_markdown.git</repository>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/editor.png
+	</screenshot>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/embed.png
+	</screenshot>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/videos.png
+	</screenshot>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/graph.png
+	</screenshot>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/syntax.png
+	</screenshot>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/checkboxes.png
+	</screenshot>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/math.png
+	</screenshot>
+	<screenshot>
+		https://raw.githubusercontent.com/icewind1991/files_markdown/master/screenshots/preview.png
+	</screenshot>
+</info>

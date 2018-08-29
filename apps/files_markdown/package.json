@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "highlight.js": "^9.12.0",
+    "katex": "^0.8.2",
+    "markdown-it": "^8.4.0",
+    "markdown-it-anchor": "^4.0.0",
+    "markdown-it-for-inline": "^0.1.1",
+    "markdown-it-github-preamble": "^1.0.0",
+    "markdown-it-highlightjs": "^3.0.0",
+    "markdown-it-table-of-contents": "^0.3.2",
+    "markdown-it-texmath": "^0.4.3",
+    "markdown-it-video": "^0.4.0",
+    "mermaid": "^7.0.4",
+    "morphdom": "^2.3.3",
+    "slugify": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/ace": "0.0.35",
+    "@types/highlight.js": "^9.1.10",
+    "@types/jquery": "^3.2.12",
+    "@types/katex": "^0.5.0",
+    "@types/markdown-it": "0.0.3",
+    "@types/markdown-it-anchor": "^4.0.1",
+    "@types/underscore": "^1.8.2",
+    "@types/webpack": "^3.0.10",
+    "@types/webpack-env": "^1.13.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "browserify": "^14.4.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5"
+  }
+}

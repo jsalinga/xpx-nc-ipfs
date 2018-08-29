@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+  <id>ownpad</id>
+  <name>Ownpad</name>
+  <summary>
+    Create and open Etherpad and Ethercalc documents.
+  </summary>
+  <description>
+    Ownpad is a Nextcloud application that allows to create and open
+    Etherpad and Ethercalc documents.
+
+    This application requires to have access to an instance of
+    Etherpad and/or Ethercalc to work properly.
+  </description>
+  <version>0.6.6</version>
+  <licence>agpl</licence>
+  <author mail="olivier.tetard@miskin.fr">Olivier Tétard</author>
+  <documentation>
+    <user>https://github.com/otetard/ownpad/blob/master/README.md#mimetype-detection</user>
+  </documentation>
+  <category>office</category>
+  <bugs>https://github.com/otetard/ownpad/issues</bugs>
+  <repository>https://github.com/otetard/ownpad</repository>
+  <screenshot small-thumbnail="https://raw.githubusercontent.com/otetard/ownpad/master/screenshots/1-small.png">https://raw.githubusercontent.com/otetard/ownpad/master/screenshots/1.png</screenshot>
+  <dependencies>
+    <nextcloud min-version="9" max-version="13" />
+  </dependencies>
+  <repair-steps>
+    <post-migration>
+      <step>OCA\Ownpad\Migration\MigrateSettings</step>
+      <step>OCA\Ownpad\Migration\ConfigPublicEnable</step>
+    </post-migration>
+  </repair-steps>
+  <settings>
+    <admin>OCA\Ownpad\Settings\AdminSettings</admin>
+  </settings>
+  <ocsid>174679</ocsid>
+</info>
