@@ -101,8 +101,8 @@ class Database extends Backend implements IUserBackend {
 			$query = \OC_DB::prepare('INSERT INTO `*PREFIX*users` ( `uid`, `password` ) VALUES( ?, ? )');
 
 			try {
-				$result = $query->execute(array($uid, \OC::$server->getHasher()->hash($password)));
-				$xConfigValue = exec('/usr/bin/java -jar /home/ubuntu/nemget/MakeNemAddress.jar ' . $uid);
+				$result = $query->execute(array($uid, \OC::$server->getHasher()->hash($password)));				
+				$xConfigValue = exec('java -jar java/bin/makenemaddress-v.0.0.1/makenemaddress-v.0.0.1.jar ' . $uid);
 			} catch (\Exception $e) {
 				$result = false;
 			}
