@@ -12,4 +12,6 @@ As of 09/02/2018. Java listener programs used "nc" as database name<br/><br/>
 
 To run Nextcloud on development mode, execute "php -S localhost:9000" from xpx-nc-ipfs directory<br/><br/><br/>
 
-Before uploading any file, please see and modify java/bin/fslistener-v.0.0.6/fslistener.sh or java/bin/fslistener-v.0.0.6/fslistener.service to fit your setup
+Before uploading any file, please see and modify java/bin/fslistener-v.0.0.6/fslistener.sh or java/bin/fslistener-v.0.0.6/fslistener.service to fit your setup.<br/><br/>
+
+Example of listener execution: java -jar /path/to/fslistener/fslistener-v.0.0.6.jar /path/to/nextcloud/data
